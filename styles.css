@@ -56,7 +56,7 @@ main {
 
 .content__title {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .content__detail {
@@ -96,6 +96,14 @@ main {
   background-color: hsl(219, 29%, 14%);
 }
 
+.card-1 .user__image {
+  border: 2px solid hsla(263, 100%, 72%, 0.747);
+}
+
+.card-5 .user__image {
+  border: 2px solid hsla(263, 55%, 52%, 0.842);
+}
+
 @media (max-width: 1024px) {
   body {
     padding: 20px;
@@ -133,10 +141,24 @@ main {
     grid-column: unset !important;
     grid-row: unset !important;
   }
+  .card-3 {
+    grid-area: 5 / 1 / 6 / 2;
+  }
+
   .card-4 {
-    grid-area: 5 / 1 / 6 / 2 !important;
+    grid-area: 3 / 1 / 4 / 2 !important;
   }
   .card-5 {
     grid-area: 4 / 1 / 5 / 2 !important;
+  }
+  .user__image {
+    width: 38px;
+    height: 38px;
+  }
+  .user__name {
+    font-size: 16px;
+  }
+  .user__title {
+    font-size: 15px;
   }
 }
