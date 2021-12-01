@@ -28,6 +28,7 @@ main {
   padding: 30px;
   border-radius: 10px;
   color: hsl(0, 0%, 100%);
+  box-shadow: 2px 2px 6px grey;
 }
 
 .card__user {
