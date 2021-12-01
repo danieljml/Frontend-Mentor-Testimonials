@@ -133,4 +133,10 @@ main {
     grid-column: unset !important;
     grid-row: unset !important;
   }
+  .card-4 {
+    grid-area: 5 / 1 / 6 / 2 !important;
+  }
+  .card-5 {
+    grid-area: 4 / 1 / 5 / 2 !important;
+  }
 }
